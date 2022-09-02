@@ -5,8 +5,11 @@
 /*@import kullanılırsa isim çakışması oluyor
 daha yeni olan @use kullanmak */
 
+@use "./base/reset";
 // @use "./abstracts/variables";
 @use "./abstracts/variables" as v;
+
+@use "./components/index" as *;
 
 body {
   font-family: v.$fontFamily;

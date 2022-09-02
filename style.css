@@ -1,5 +1,9 @@
 @charset "UTF-8";
-/*@import kullanılırsa isim çakışması oluyor
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} /*@import kullanılırsa isim çakışması oluyor
 daha yeni olan @use kullanmak */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
